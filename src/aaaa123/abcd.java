@@ -21,6 +21,8 @@ public class abcd
 		driver.findElement(By.id("email")).sendKeys("Admin");
 		driver.findElement(By.id("pass")).sendKeys("Admin1234");
 		System.out.println("this is a facebook website");
+		System.out.println("this is a facebook website");
+
 		Thread.sleep(3000);
 		//driver.findElement(By.cssSelector("button[name='login']")).click();
 		driver.findElement(By.cssSelector("Forgotten password?")).click();
